@@ -10,6 +10,8 @@ To make this work, you need a Raspberry Pi, an IR controller & receiver, and an 
 
 Follow the following [guide](https://github.com/spotipy-dev/spotipy/blob/2.22.1/TUTORIAL.md) until Step 2. to start using the Spotify API.
 
+infrared im using https://www.dfrobot.com/product-366.html
+
 Then, manipulate my files:
 - Download the files from this repsitory
 - Fill out the credentials.py file
