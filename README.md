@@ -1,6 +1,8 @@
 # IR-Spotify
 
-Hello! Ever since I got an Infrared (IR) controller, I've wanted to make a project with it. After many failed ideas, I had this one, and I pursued it.
+Hello! Ever since I got an Infrared (IR) controller, I've wanted to make a project with it. 
+
+After a while, I got the idea to make this, so I did.
 
 ## Instructions
 
@@ -39,7 +41,7 @@ Lastly, manipulate my files:
 - Fill out the credentials.py file with
   - Your [Spotify details](https://developer.spotify.com/dashboard)
   - The GPIO pin you plugged your green wire into
-- Upload your files to your Raspberry Pi (USB stick, file sharing, email... whatever suits you best)
+- Upload your files to your Raspberry Pi (USB stick, ssh, file sharing, email... whatever suits you best)
 
 ### Running the program
 
