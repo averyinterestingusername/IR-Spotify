@@ -27,6 +27,10 @@ Plug the IR receiver into your raspi (wiring)
 
 <img width="600" alt="Raspberry Pi Pins" src="https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png?hash=df7d7847c57a1ca6d5b2617695de6d46"/>
 
+<img width="500" alt="Wire" src="https://dfimg.dfrobot.com/enshop/image/data/FIT0011/200420%20Update/53AU4166_564x376.jpg"/>
+
+
+
 Connect your external speaker, either by plugging it into the audio jack, or by bluetooth.
 
 ### Running the program
