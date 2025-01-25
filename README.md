@@ -13,19 +13,19 @@ The IR receiver gets input from the user pressing key on the controller, which t
 
 ### Setup
 
-Follow the following [guide](https://github.com/spotipy-dev/spotipy/blob/2.22.1/TUTORIAL.md) until Step 2. to start using the Spotify API.
-
-infrared im using https://www.dfrobot.com/product-366.html
+Follow Step 1 of [this guide](https://github.com/spotipy-dev/spotipy/blob/2.22.1/TUTORIAL.md) to start using the Spotify API.
 
 Then, manipulate my files:
 - Download the files from this repsitory
 - Fill out the credentials.py file
 - Upload your files to your Raspberry Pi (USB stick, file sharing, email... whatever suits you best)
 
-Install the package 'Spotipy' on your Raspberry Pi
+Install the package 'spotipy' on your Raspberry Pi.
+- The following command should do the trick: py -m pip install spotipy --upgrade
+
 Plug the IR receiver into your raspi (wiring)
-Connect a speaker
-have an instace of spotify open
+<img width="233" alt="Raspberry Pi Pins" src="https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png?hash=df7d7847c57a1ca6d5b2617695de6d46"/>
+Connect your external speaker, either by plugging it into the audio jack, or by bluetooth.
 
 ### Running the program
 
