@@ -45,7 +45,9 @@ Lastly, manipulate my files:
 
 Make sure the Raspberry Pi has an instance of [Spotify](https://open.spotify.com/) open (or better yet, find a way to download Spotify *), and is the active device.
 - The active device is the last device that has recently played a song on Spotify.
+
 Run the spotify.py file.
+
 Try pressing the pause/play button on your IR controller.
 
 Voilà! That should allow you to control the songs with your IR controller, and play the using the Raspberry Pi!
