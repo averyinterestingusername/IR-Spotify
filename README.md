@@ -24,7 +24,9 @@ Install the package 'spotipy' on your Raspberry Pi.
 - The following command should do the trick: py -m pip install spotipy --upgrade
 
 Plug the IR receiver into your raspi (wiring)
-<img width="233" alt="Raspberry Pi Pins" src="https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png?hash=df7d7847c57a1ca6d5b2617695de6d46"/>
+
+<img width="500" alt="Raspberry Pi Pins" src="https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png?hash=df7d7847c57a1ca6d5b2617695de6d46"/>
+
 Connect your external speaker, either by plugging it into the audio jack, or by bluetooth.
 
 ### Running the program
