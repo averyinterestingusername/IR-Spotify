@@ -25,10 +25,10 @@ Install the package 'spotipy' on your Raspberry Pi.
 
 Plug the IR receiver into your Raspberry Pi
 - The wire of your IR receiver should have three pins:
-<img width="600" alt="Wire" src="https://dfimg.dfrobot.com/enshop/image/data/FIT0011/200420%20Update/53AU4166_564x376.jpg"/>
+- <img width="600" alt="Wire" src="https://dfimg.dfrobot.com/enshop/image/data/FIT0011/200420%20Update/53AU4166_564x376.jpg"/>
 
 - The red one needs to be plugged into power, the black one into ground, and lastly, the green one into some pin.
-<img width="600" alt="Raspberry Pi Pins" src="https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png?hash=df7d7847c57a1ca6d5b2617695de6d46"/>
+- <img width="600" alt="Raspberry Pi Pins" src="https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png?hash=df7d7847c57a1ca6d5b2617695de6d46"/>
 
 Connect your external speaker, either by plugging it into the audio jack, or by bluetooth.
 
