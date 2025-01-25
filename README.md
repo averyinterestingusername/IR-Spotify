@@ -1,10 +1,15 @@
 # IR-Spotify
 
-Hello! Ever since I got an Infrared (IR) controller, I've wanted to make a project with it. At first I thought of 
+Hello! Ever since I got an Infrared (IR) controller, I've wanted to make a project with it. After many failed ideas, I had this one, and I pursued it.
 
 ## Instructions
 
-To make this work, you need a Raspberry Pi, an IR controller & receiver, and an external speaker. The Raspberry Pi gets input from the IR receiver (which itself gets input from the user pressing keys on the IR controller), and uses the Spotify API to execute a command based on the input.
+To make this work, you need to have
+- A Raspberry Pi
+- An IR controller & receiver ([the one I'm using](https://www.dfrobot.com/product-366.html))
+- And an external speaker
+
+The IR receiver gets input from the user pressing key on the controller, which the Raspberry Pi then uses to execute a command from the Spotify API.
 
 ### Setup
 
