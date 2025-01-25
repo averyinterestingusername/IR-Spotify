@@ -22,8 +22,13 @@ Plug the IR receiver into your Raspberry Pi
 - The wire of your IR receiver should have three pins:
 - <img width="600" alt="Wire" src="https://dfimg.dfrobot.com/enshop/image/data/FIT0011/200420%20Update/53AU4166_564x376.jpg"/>
 
-- The red one needs to be plugged into "5V Power", the black one into "Ground", and lastly, the green one into some pin.
+- Your Raspberry Pi's pins:
 - <img width="600" alt="Raspberry Pi Pins" src="https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png?hash=df7d7847c57a1ca6d5b2617695de6d46"/>
+
+- Plug:
+- - The red one into "5V Power",
+  - The black one into "Ground",
+  - And the green one into one of the many GPIO pins
 
 Connect your external speaker, either by plugging it into the audio jack, or by bluetooth.
 
