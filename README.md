@@ -17,8 +17,8 @@ Follow Step 1 of [this guide](https://github.com/spotipy-dev/spotipy/blob/2.22.1
 
 Then, manipulate my files:
 - Download the files from this repsitory
-- Fill out the credentials.py file
-- Upload your files to your Raspberry Pi (USB stick, file sharing, email... whatever suits you best)
+- - Fill out the credentials.py file
+- - - Upload your files to your Raspberry Pi (USB stick, file sharing, email... whatever suits you best)
 
 Install the package 'spotipy' on your Raspberry Pi.
 - The following command should do the trick: py -m pip install spotipy --upgrade
