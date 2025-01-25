@@ -26,23 +26,28 @@ Plug the IR receiver into your Raspberry Pi
 - <img width="600" alt="Raspberry Pi Pins" src="https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png?hash=df7d7847c57a1ca6d5b2617695de6d46"/>
 
 - Plug:
-- - The red one into "5V Power",
+  - The red one into "5V Power",
   - The black one into "Ground",
-  - And the green one into one of the many GPIO pins
+  - And the green one into one of the many GPIO pins (remember the pin number)
 
-Connect your external speaker, either by plugging it into the audio jack, or by bluetooth.
+Connect your external speaker to your Raspberry Pi:
+- Either plub it into the audio jack,
+- Or use Bluetooth.
 
 Lastly, manipulate my files:
 - Download the files from this repsitory
-- Fill out the credentials.py file
+- Fill out the credentials.py file with
+  - Your [Spotify details](https://developer.spotify.com/dashboard)
+  - The GPIO pin you plugged your green wire into
 - Upload your files to your Raspberry Pi (USB stick, file sharing, email... whatever suits you best)
 
 ### Running the program
 
-Make sure the Raspberry Pi has an instance of [Spotify](https://open.spotify.com/) open, and is the active device*
-Run the spotify.py file
-Try pressing the pause/play button.
+Make sure the Raspberry Pi has an instance of [Spotify](https://open.spotify.com/) open (or better yet, find a way to download Spotify *), and is the active device.
+- The active device is the last device that has recently played a song on Spotify.
+Run the spotify.py file.
+Try pressing the pause/play button on your IR controller.
 
 Voilà! That should allow you to control the songs with your IR controller, and play the using the Raspberry Pi!
 
-*A device becomes active to Spotify when they were the last device that has played a song, and that hasn't been too long ago.
+### * That was sarcastic! You can't (easily) download Spotify on Linux.
