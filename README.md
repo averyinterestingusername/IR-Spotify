@@ -8,7 +8,7 @@ After a while (and many failed ideas!), I got the idea to make this, so I did.
 
 I spent countless hours trying to find out how to let my Raspberry Pi get input from my IR controller, by reading the data received by the IR receiver. This ended up taking so long because simply reading the value on the signal pin (which is, of course, the first thing I tried) led to gibberish, and anything I found online was very vague and only applicable to models other than mine.
 
-Eventually, I decided to revisit the webpage of the supplier I got the IR kit from (namely [core electronics](https://core-electronics.com.au/ir-kit-for-arduino.html)). From there, I espied a link which might help me further, and followed it to the original manufacturer ([DFRobot](https://www.dfrobot.com/product-366.html)). I visited what I thought might prove to be most fruitful, their wiki, to see if I could glean anything there.
+Eventually, I decided to revisit the webpage of the supplier I got the IR kit from (namely [Core Electronics](https://core-electronics.com.au/ir-kit-for-arduino.html)). From there, I espied a link which might help me further, and followed it to the original manufacturer ([DFRobot](https://www.dfrobot.com/product-366.html)). I visited what I thought might prove to be most fruitful, their wiki, to see if I could glean anything there.
 
 I could, and found some vital sample code on the following [wiki entry](https://wiki.dfrobot.com/IR_Kit_SKU_DFR0107_). However, it was written in Arduino C++ (Does it have a specific name?). Great. 
 
