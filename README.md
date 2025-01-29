@@ -2,7 +2,11 @@
 
 Hello! Ever since I got an Infrared (IR) controller, I've wanted to make a project with it. 
 
-After a while, I got the idea to make this, so I did.
+After a while (and many failed ideas!), I got the idea to make this, so I did.
+
+### Short Input
+
+I spent many, many hours trying to find out how to get my IR controller & receiver to behave, because all I found online were instructions for other models, and they didn't work for mine. Eventually, I went back to the supplier I got it from ([core electronics](https://core-electronics.com.au/ir-kit-for-arduino.html)), followed their link to the original manufacturer ([DFRobot](https://www.dfrobot.com/product-366.html)), and visited their wiki to see if I could glean anything there. I could, and found the following [file](https://wiki.dfrobot.com/IR_Kit_SKU_DFR0107_), written in c++. Great. Now I had to translate that into python, and clean up the code. And then, as if that weren't enough, I had to re-set every single value for every single key on my controller, because they were all wrong and unrecognised. Fun. Finally, I was on track to hook it up to Spotify.
 
 ## Instructions
 
@@ -65,4 +69,4 @@ Voilà! That should allow you to control the songs with your IR controller, and 
 
 ### * That was sarcastic! You can't (easily) download Spotify on Linux. 
 
-(Sorry, I spent hours agonising over that fact.)
+(Sorry, I spent a long time agonising over that fact.)
