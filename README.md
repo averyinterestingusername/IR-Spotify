@@ -11,7 +11,15 @@ To make this work, you need to have
 - An IR controller & receiver ([the one I'm using](https://www.dfrobot.com/product-366.html))
 - And an external speaker
 
-The IR receiver gets input from the user pressing key on the controller, which the Raspberry Pi then uses to execute a command from the Spotify API.
+The IR receiver gets input from the user pressing key on the controller, which the Raspberry Pi then uses to execute a command from the Spotify API. 
+- Different buttons on the IR controller transmit signals at different frequencies, which the receiver can pick up on.
+- These different frequencies are read and decoded by my program running on the Raspberry Pi
+- Using these decoded values, different things can be done; In my project, they're used to determine how the music should be manipulated.
+- The Raspberry Pi uses the decoded values to execute a command from the Spotify API, which then affects the music. Examples include:
+  - Pausing / Playing the music
+  - Changing the volume
+  - Skipping a song or rewinding to a previous one
+  - Changing playlists saved on your Spotify account
 
 ### Setup
 
