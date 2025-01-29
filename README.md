@@ -6,7 +6,15 @@ After a while (and many failed ideas!), I got the idea to make this, so I did.
 
 ### Short Input
 
-I spent many, many hours trying to find out how to get my IR controller & receiver to behave, because all I found online were instructions for other models, and they didn't work for mine. Eventually, I went back to the supplier I got it from ([core electronics](https://core-electronics.com.au/ir-kit-for-arduino.html)), followed their link to the original manufacturer ([DFRobot](https://www.dfrobot.com/product-366.html)), and visited their wiki to see if I could glean anything there. I could, and found the following [file](https://wiki.dfrobot.com/IR_Kit_SKU_DFR0107_), written in c++. Great. Now I had to translate that into python, and clean up the code. And then, as if that weren't enough, I had to re-set every single value for every single key on my controller, because they were all wrong and unrecognised. Fun. Finally, I was on track to hook it up to Spotify.
+I spent countless hours trying to find out how to let my Raspberry Pi get input from my IR controller, by reading the data received by the IR receiver. This ended up taking so long because simply reading the value on the signal pin (which is, of course, the first thing I tried) led to gibberish, and anything I found online was very vague and only applicable to models other than mine.
+
+Eventually, I decided to revisit the webpage of the supplier I got the IR kit from (namely [core electronics](https://core-electronics.com.au/ir-kit-for-arduino.html)). From there, I espied a link which might help me further, and followed it to the original manufacturer ([DFRobot](https://www.dfrobot.com/product-366.html)). I visited what I thought might prove to be most fruitful, their wiki, to see if I could glean anything there.
+
+I could, and found some vital sample code on the following [wiki entry](https://wiki.dfrobot.com/IR_Kit_SKU_DFR0107_). However, it was written in Arduino C++ (Does it have a specific name?). Great. 
+
+I proceded to translate the c++ code into micropython. An arduous task, indeed, and when I was finished... it still didn't recognise the keypresses on the IR controller. It turned out, and this wasn't explained anywhere, that the keys were misconfigured in the code, and they didn't match up with my kit. As such, when the signals were decoded, the program didn't recognise them as a known key, and threw an error. Eventually, I figured out I could print the value the program did receive, and then manually recalibrate each key to the actual value received. Once I had managed that, the program actually worked! Since it was ugly, I also cleaned it up, and turned it into a class. Finally, I was on track to hook it up to Spotify.
+
+Which I did (I mean, what did you expect?).
 
 ## Instructions
 
