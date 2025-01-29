@@ -63,4 +63,6 @@ Then:
 
 Voilà! That should allow you to control the songs with your IR controller, and play the using the Raspberry Pi!
 
-### * That was sarcastic! You can't (easily) download Spotify on Linux.
+### * That was sarcastic! You can't (easily) download Spotify on Linux. 
+
+(Sorry, I spent hours agonising over that fact.)
